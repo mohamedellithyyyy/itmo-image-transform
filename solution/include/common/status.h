@@ -1,0 +1,15 @@
+#ifndef STATUS_H
+#define STATUS_H
+
+enum status {
+    STATUS_OK,
+    STATUS_FILE_NOT_FOUND,
+    STATUS_INVALID_ARGUMENT,
+    STATUS_INVALID_FORMAT,
+    STATUS_IO_ERROR,
+    STATUS_MEMORY_ERROR
+};
+
+#endif
+
+

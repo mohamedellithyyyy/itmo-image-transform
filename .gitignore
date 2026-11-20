@@ -1,0 +1,31 @@
+# ITMO-provided project files
+CMakeLists.txt
+CMakeSettings.json
+Makefile
+clang-tidy-checks.txt
+cmake-variants.yaml
+common-mistakes.md
+docs/
+tester/
+
+# Build directories
+build/
+solution/build/
+cmake-build-*/
+
+# Compiled files
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Generated output
+output.bmp
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
